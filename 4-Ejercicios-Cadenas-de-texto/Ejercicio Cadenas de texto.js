@@ -31,6 +31,7 @@ console.log(apellido_Ultimaletra);
 // 9) Una cadena de texto que elimine los espacios de la variable "estudiante"
 
 let estudiante_sinEspacios = estudiante.replace(" ", "");
+// let estudiante_sinEspacios = estudiante.replace(/ /g, "")
 console.log(estudiante_sinEspacios);
 
 // 10) Una variable booleana que diga si el Nombre está contenido en la variable "estudiante"
