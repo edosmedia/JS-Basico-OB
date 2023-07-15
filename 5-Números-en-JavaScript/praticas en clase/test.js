@@ -16,6 +16,7 @@ console.log(b + c)
 
 // Tricks para redondear exacto hacias abajo y poder obtener valores reales
 console.log(Math.round(((b + c) * 100)) / 100); 
+console.log(Math.floor(c)); // Math.floor redondeo hacia abajo
 
 
 ////////////////////////////////////////////////////////////
