@@ -6,7 +6,9 @@ let alturaMetro = 1.87;
 let pesoKg = 94.50;
 
 //Una variable que contenga tu altura en metros redondeada hacia arriba
-let alturaMetro_redondeada = Math.round(alturaMetro);
+let alturaMetro_redondeada2 = Math.round(alturaMetro); // alternativa pero no exacta ya que pasa el umbral de .50 es decir pasa 1.50 por eso da 2 que es un valor más bajo que el número real.
+console.log(alturaMetro_redondeada2); // 
+let alturaMetro_redondeada = Math.ceil(alturaMetro); // este se acerca mas el valor hacia arriba
 console.log(alturaMetro_redondeada);
 
 //Una variable que contenga tu peso en kilogramos redondeado hacia abajo
